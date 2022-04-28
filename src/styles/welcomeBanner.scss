@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+.textDiv {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.innerTextDiv {
+    text-align: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 137px; 
+    padding-bottom: 110px;
+    max-width: 1084px;
+}
+
+.welcomeText{
+    margin-bottom: 80px;
+    font-size: 47px;
+    font-family: 'CaslonPro';
+    font-weight: unset;
+    line-height: 110%;
+}
+
+.miniDecoration {
+    width: 100px;
+}

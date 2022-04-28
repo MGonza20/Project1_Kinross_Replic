@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonGrotesque';
+    src: url(../fonts/BrandonGrotesque-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gardenTextDiv{
+    background: url(https://www.kinrosshouse.com/site/assets/files/1339/img2.1920x864.jpg);
+    height: 735px;
+    color: white;
+}
+
+.innerGardenTextDiv{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    display: grid;
+    align-content: end;
+    width: 534px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.insideDiv{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(47,63,63,0.7) 90%);
+    padding-bottom: 80px;
+}
+
+.miniDecoration3 {
+    margin-bottom: 30px;
+    width: 100px;
+}
+
+.textH1{
+    font-family: 'CaslonPro';
+    font-size: 47px;
+    margin-bottom: 20px;
+    font-weight: unset;
+}
+
+.pText {
+    font-family: 'brandonGrotesque';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonGarden {
+    display: grid;
+    place-items: center;
+    height: 60px;
+    width: 215px;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #be9f56;
+    color: white;
+    font-family: 'brandonGrotesque';
+    font-size: 14px;
+    transition: .5s;
+}
+
+.buttonGarden:hover{
+    background-color: #2f3f3f;
+    transition: .5s;
+}

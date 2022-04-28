@@ -1,0 +1,25 @@
+.cookieContent {
+    position: fixed;
+    bottom: 5px;
+    right: .1px;
+    z-index: 10;
+}
+
+.cookieContent li {
+    list-style: none;
+}
+
+
+.cookieContent li a {
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.cookieContent li a:hover{
+    transform: scale(1.18);
+}
+
+.cookieBtn {
+    width: 40px;
+}

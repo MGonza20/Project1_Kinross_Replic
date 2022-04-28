@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonGrotesque';
+    src: url(../fonts/BrandonGrotesque-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imgInfo{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.innerImgInfo {
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.divTextCol2{
+    position: absolute;
+    padding-left: 106px;
+    padding-right: 106px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: grid;
+    align-content: center;
+    height: 100%;
+}
+
+.divImgCol2{
+    display: grid;
+    justify-content: end;
+    width: 100%;
+}
+
+.boatImg {
+    display: inline-block;
+    width: 795px;
+}
+
+.manImg {
+    display: inline-block;
+    width: 500px;
+}
+
+.pTextGolf{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'brandonGrotesque';
+}
+
+.titleGolf{
+    font-weight: unset;
+    font-size: 47px;
+    margin-bottom: 20px;
+    font-family: 'CaslonPro';
+}
+
+.miniDecoration {
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.buttonGolf{
+    display: grid;
+    place-items: center;
+    height: 60px;
+    width: 215px;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #2f3f3f ;
+    color: white;
+    font-family: 'brandonGrotesque';
+    font-size: 14px;
+    transition: .5s;
+}
+
+.buttonGolf:hover{
+    background-color: #be9f56;
+    transition: .5s;
+}

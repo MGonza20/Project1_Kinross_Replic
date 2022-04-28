@@ -1,0 +1,19 @@
+.dropDownMenu {
+
+    position: fixed;
+    z-index: 900;
+    inset: 0 0 80% 0;
+    background-color: #2f3f3f;
+    padding-top: 200px;
+    height: 610px;
+    transform: translateY(-100%);
+    transition: transform 400ms linear;
+}
+
+.navYes {
+    transform: translateY(0%);
+}
+
+.menuContainer{
+    padding-left: 10px;
+}

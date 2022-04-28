@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonGrotesque';
+    src: url(../fonts/BrandonGrotesque-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.innerImgsInfoDiv {
+    margin: 12px; 
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.imgsInfoDiv {   
+    display: flex;
+    justify-content: center;
+}
+
+
+.img1{
+    width: 810px; 
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.img2 {
+    display: inline-block;
+    width: 800px; 
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.infoContent {
+    padding: 110px;
+}
+
+.moreBtn {
+    list-style: none;
+}
+
+.h1InfoText{
+    font-size: 47px;
+    font-weight: unset;
+    font-family: 'CaslonPro';
+    margin-bottom: 20px;
+    line-height: 110%;
+    max-width: 80%;
+}
+
+.pInfoText{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'brandonGrotesque';
+}
+
+.buttonImgs{
+    display: grid;
+    place-items: center;
+    height: 60px;
+    width: 215px;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #2f3f3f ;
+    color: white;
+    font-family: 'brandonGrotesque';
+    font-size: 14px;
+    transition: .5s;
+}
+
+.buttonImgs:hover{
+    background-color: #be9f56;
+    transition: .5s;
+}

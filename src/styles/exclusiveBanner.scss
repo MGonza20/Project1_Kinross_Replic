@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonGrotesque';
+    src: url(../fonts/BrandonGrotesque-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainTextBanner{
+    margin-bottom: 20px;
+    font-family: 'CaslonPro';
+    font-size: 37px;
+    font-weight: unset;
+}
+
+.smallText{
+    font-family: 'brandonGrotesque';
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+
+.exclusiveCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center ;
+    width: 100%;
+    color: #fff;
+    padding-top: 137px;
+    padding-bottom: 137px;
+    background-size: 200px;
+    background-image: url(https://www.kinrosshouse.com/site/templates/images/cta-decor.png?t=1632489598);  
+    background-color: rgb(61, 50, 46);
+}
+
+.buttonExclusive {
+    display: grid;
+    place-items: center;
+    height: 60px;
+    width: 215px;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #be9f56;
+    color: white;
+    font-family: 'brandonGrotesque';
+    font-size: 14px;
+    transition: .5s;
+}
+
+.buttonExclusive:hover{
+    background-color: white;
+    color: #2f3f3f;
+    transition: .5s;
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.linksTitle{
+    margin: 0 0 8px;
+}
+
+.linksTitle a{
+    font-family: 'CaslonPro';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.linksTitle a:hover{
+    color: #be9f56;
+}
+
+.menuColorTitle {
+    color: #be9f56;
+}
+
+.homeMenuTitle{
+    margin: -7px;
+}
+

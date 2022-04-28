@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'brandonGrotesque';
+    src: url(../fonts/BrandonGrotesque-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.subLinkLi{
+    margin-bottom: 7px;
+}
+
+.subLinkLi a{
+    font-family: 'brandonGrotesque';
+    text-decoration: none;
+}
+
+.subLinkLi a:hover{
+    color: #be9f56;
+}
+
+.menuColor{
+    color: white;
+    font-size: 18px;
+}
+
+.footerFontSize{
+    font-size: 20px;
+}

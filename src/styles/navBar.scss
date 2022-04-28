@@ -1,0 +1,74 @@
+.navbar {
+    position: absolute;
+    display: flex;
+    z-index: 1000;
+    padding: 50px 10px;
+    position: fixed;
+    width: 100%;
+    transition: .4s linear;
+}
+
+.navbar.sticky{
+    background-color: #2f3f3f;
+    border-bottom: #3b4d4d .1px solid;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.kinRossImg{
+    width: 195px;
+}
+
+.littleLogo{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.navBody{
+    display: flex;
+}
+
+.navBodyCont {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.navBodyContChanged {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.buttons{
+    flex-basis: 100%;
+}
+
+.logo{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.navBodyCont li{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.secondBtn{
+    margin-left: 40px;
+}
+
+input[type="checkbox"]{
+    -webkit-appereance: none;
+    visibility: hidden;
+    display: none;
+}
+
