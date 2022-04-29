@@ -17,7 +17,7 @@ function Main() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <NavBar onAdd={() => setShowMenu(!showMenu)} />
+      <NavBar onAdd={() => setShowMenu(!showMenu)} show={showMenu} />
       <LandingPage />
       <WelcomeBanner />
       <ImgsText />

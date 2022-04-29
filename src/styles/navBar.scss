@@ -47,8 +47,15 @@
     padding-right: 20px;
 }
 
-.buttons{
+.toggleBtnCont{
     flex-basis: 100%;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+.toggleBtnContB {
+    flex-basis: 100%;
+    padding-top: 8px;
 }
 
 .logo{
@@ -66,9 +73,35 @@
     margin-left: 40px;
 }
 
-input[type="checkbox"]{
-    -webkit-appereance: none;
-    visibility: hidden;
-    display: none;
+.hamBtn::before,
+.hamBtn::after {
+  content: ''; 
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  transition: all .3s ease-in-out;  
+}
+.hamBtn::before {
+  transform: translateY(-4px);
+}
+.hamBtn::after {
+  transform: translateY(4px);
 }
 
+.hamBtnCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hamBtnCont.open .hamBtn::before {
+    transform: rotate(45deg) ;
+}
+
+.hamBtnCont.open .hamBtn::after {
+    transform: rotate(-45deg);
+}
