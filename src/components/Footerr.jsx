@@ -18,6 +18,7 @@ function Footerr() {
         <div>
           <News />
           <FooterMiniTexts />
+          <div className="divDescription"><p>Proyecto 1 - Replica - Sara Paguaga 20634</p></div>
         </div>
       </footer>
     </div>
