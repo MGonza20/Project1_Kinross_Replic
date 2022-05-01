@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/landingPage.scss';
+import { motion } from 'framer-motion';
 import BackgroundVideo from '../media/videos/Kinross-Background-Video.mp4';
 
 function LandingPage() {
@@ -13,9 +14,17 @@ function LandingPage() {
           autoPlay
         />
         <div className="text">
-          <div className="anotherCont">
+          <motion.div
+            className="anotherCont"
+            animate={{
+              y: -100,
+              transition: {
+                duration: 1.6,
+              },
+            }}
+          >
             <h1 className="mainText">A Private Country House and Estate for Exclusive Use</h1>
-          </div>
+          </motion.div>
         </div>
       </section>
       <div className="block" />
