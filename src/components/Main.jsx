@@ -31,7 +31,7 @@ function Main() {
       <GardenBanner />
       <ExclusiveBanner />
       <Footerr />
-      <Cookie openW={() => setWindow(true)} />
+      <Cookie openW={() => setWindow(true)} window={window} />
       <Menu show={showMenu} />
       <EmergentCookieScreen
         closeW={() => setWindow(false)}

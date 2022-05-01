@@ -3,10 +3,10 @@ import cookie from '../media/images/cookie-icon-kinross-house-1.png';
 import '../styles/cookie.scss';
 
 // eslint-disable-next-line react/prop-types
-function Cookie({ openW }) {
+function Cookie({ openW, window }) {
   return (
     <div
-      className="cookieContent"
+      className={window ? 'notCookie' : 'cookieContent'}
       role="button"
       onClick={openW}
       onKeyPress

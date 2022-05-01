@@ -3,6 +3,7 @@
     bottom: 5px;
     right: .1px;
     z-index: 10;
+    transition: 2s;
 }
 
 .cookieContent li {
@@ -23,4 +24,9 @@
 
 .cookieBtn {
     width: 40px;
+}
+
+.notCookie{
+    opacity: 1;
+    transition: 2s;
 }
