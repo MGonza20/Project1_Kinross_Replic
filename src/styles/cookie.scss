@@ -10,13 +10,14 @@
 }
 
 
-.cookieContent li a {
+.cookieContent img {
     display: inline-block;
     margin-right: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
-.cookieContent li a:hover{
+.cookieContent img:hover{
     transform: scale(1.18);
 }
 

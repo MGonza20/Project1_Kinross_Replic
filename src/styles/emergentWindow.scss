@@ -7,6 +7,7 @@
     padding-right: 10px;
     font-size: 29px;
     position: absolute;
+    cursor: pointer;
 }
 
 .emergentWindowDiv{
@@ -62,7 +63,7 @@
     transition: .2s;
 }
 
-.cookiesBtnsDiv div:nth-child(2){
+.cookiesBtnsDiv a:nth-child(2){
     width: 130px;
     border: white 1px solid;
     cursor: pointer;
@@ -74,17 +75,14 @@
     cursor: pointer;
 }
 
-.cookiesBtnsDiv div:nth-child(1):hover{
-    background-color: #be9f56d4;
+.cookiesBtnsDiv a:nth-child(1):hover{
+    background-color: #be9f56c2;
 }
 
-.cookiesBtnsDiv div:nth-child(2):hover{
+.cookiesBtnsDiv a:nth-child(2):hover{
     background-color: #425454;
 }
 
-.aceptBtn div:nth-child(2){
-    margin-left: 10px;
-}
 
 .showDetsLinkDiv{
     display: flex;
@@ -96,4 +94,9 @@
     text-decoration: none;
     font-family: 'Open Sans';
     font-size: 11px;
+    cursor: pointer;
+}
+
+.windowClose{
+    display: none;
 }

@@ -16,6 +16,8 @@ import EmergentCookieScreen from './EmergentCookieScreen';
 
 function Main() {
   const [showMenu, setShowMenu] = useState(false);
+  const [window, setWindow] = useState(false);
+
   return (
     <>
       <NavBar onAdd={() => setShowMenu(!showMenu)} show={showMenu} />
@@ -27,9 +29,12 @@ function Main() {
       <GardenBanner />
       <ExclusiveBanner />
       <Footerr />
-      <Cookie />
+      <Cookie openW={() => setWindow(true)}/>
       <Menu show={showMenu} />
-      <EmergentCookieScreen />
+      <EmergentCookieScreen
+        closeW={() => setWindow(false)}
+        window={window}
+      />
     </>
 
   );
