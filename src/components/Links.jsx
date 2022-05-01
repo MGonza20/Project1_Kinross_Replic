@@ -1,7 +1,7 @@
 import React from 'react';
 import FooterSubLink from './FooterSubLink';
 import FooterLinksTitle from './FooterLinksTitle';
-import '../styles/footerr.scss';
+import '../styles/links.scss';
 
 function Links() {
   return (

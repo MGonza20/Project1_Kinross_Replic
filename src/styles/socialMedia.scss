@@ -1,0 +1,41 @@
+.mediaContainer {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.mediaContainer li {
+    list-style: none;
+}
+
+
+.mediaContainer li a {
+    display: inline-block;
+    margin-right: 24px;
+    transition: 0.5s;
+}
+
+
+.iconImg {
+    filter: brightness(0) invert(1);
+}
+
+.socialMediaContainer{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+
+.socialMediaContainer li{
+    list-style-type: none;
+}
+
+.socialMediaContainer li a {
+    margin-left: 25px;
+}

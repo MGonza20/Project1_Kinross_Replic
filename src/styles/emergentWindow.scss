@@ -1,0 +1,99 @@
+.closeBtn {
+    display: flex;
+    right: -1px;
+    top: -1px;
+    font-family: 'Trebuchet MS', 'Aeial', sans-serif;
+    color: #be9f56;
+    padding-right: 10px;
+    font-size: 29px;
+    position: absolute;
+}
+
+.emergentWindowDiv{
+    width: 300px;
+    height: 245px;
+    background-color: #2F3F3F;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    padding: 15px 20px;
+}
+
+.emergentTitleDiv{
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: #be9f56;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.emergentBTDiv{
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #be9f56;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.emergentBTDiv a{
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #be9f56;
+}
+
+.cookiesBtnsDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+
+.cookiesBtnss{
+    display: grid;
+    place-items: center;
+    height: 36px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    transition: .2s;
+}
+
+.cookiesBtnsDiv div:nth-child(2){
+    width: 130px;
+    border: white 1px solid;
+    cursor: pointer;
+}
+
+.cookiesBtnsDiv a:nth-child(1){
+    width: 121px;
+    background-color: #be9f56;
+    cursor: pointer;
+}
+
+.cookiesBtnsDiv div:nth-child(1):hover{
+    background-color: #be9f56d4;
+}
+
+.cookiesBtnsDiv div:nth-child(2):hover{
+    background-color: #425454;
+}
+
+.aceptBtn div:nth-child(2){
+    margin-left: 10px;
+}
+
+.showDetsLinkDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.showDetsLinkDiv div{
+    color: #be9f56;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 11px;
+}

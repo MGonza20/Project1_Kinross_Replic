@@ -4,7 +4,7 @@ import '../styles/Button.scss';
 // eslint-disable-next-line react/prop-types
 function Button({
   // eslint-disable-next-line react/prop-types
-  link, text, bgColor, hover,
+  link, text, bgColor,
 }) {
   return (
     <a className="button" href={link} style={{ backgroundColor: bgColor }}>

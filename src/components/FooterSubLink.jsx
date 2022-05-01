@@ -5,7 +5,7 @@ import '../styles/subLink.scss';
 function FooterSubLink({ text, menuText }) {
   return (
     <li className="subLinkLi">
-      <a className={menuText === 'yes' ? 'menuColor' : 'footerFontSize'} href="/">{text}</a>
+      <a className={menuText === 'yes' ? 'menuColor' : 'footerFontSize footerSubColor'} href="/">{text}</a>
     </li>
   );
 }

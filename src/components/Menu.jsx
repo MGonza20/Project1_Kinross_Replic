@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/menu.scss';
 import FooterLinksTitle from './FooterLinksTitle';
 import FooterSubLink from './FooterSubLink';
+import SocialMedia from './SocialMedia';
 
 function Menu({ show }) {
   return (
@@ -19,9 +20,9 @@ function Menu({ show }) {
             <div className="col first">
               <ul>
                 <FooterLinksTitle text="The House" menuText="yes" />
+                <FooterSubLink text="Accommodation" menuText="yes" />
                 <FooterSubLink text="Reception Rooms" menuText="yes" />
                 <FooterSubLink text="Dining" menuText="yes" />
-                <FooterSubLink text="Accomodation" menuText="yes" />
                 <FooterSubLink text="Whisky Library" menuText="yes" />
               </ul>
             </div>
@@ -68,6 +69,7 @@ function Menu({ show }) {
                 <FooterLinksTitle text="Contact" menuText="yes" />
               </ul>
             </div>
+            <SocialMedia />
           </div>
         </div>
       </div>

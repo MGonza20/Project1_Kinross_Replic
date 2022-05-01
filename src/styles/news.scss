@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'CaslonPro';
+    src: url(../fonts/ACaslonPro-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonGrotesque';
+    src: url(../fonts/BrandonGrotesque-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.newsTitle{
+    font-size: 25px;
+    font-family: 'CaslonPro';
+    margin-bottom: 15px;
+}
+
+.inputText{
+    font-family: 'brandonGrotesque';
+    font-size: 16px;
+}
+
+input{
+    width: 281px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.inputContainer{
+    display: flex;
+}
+
+.sendBtn{
+    display: grid;
+    place-items: center;
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(47, 63, 63);
+    color: white;
+    font-family: 'brandonGrotesque';
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+.contactDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 22px;
+}

@@ -12,6 +12,7 @@ import Footerr from './Footerr';
 import '../styles/subLink.scss';
 import Cookie from './Cookie';
 import Menu from './Menu';
+import EmergentCookieScreen from './EmergentCookieScreen';
 
 function Main() {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,7 +29,7 @@ function Main() {
       <Footerr />
       <Cookie />
       <Menu show={showMenu} />
-
+      <EmergentCookieScreen />
     </>
 
   );

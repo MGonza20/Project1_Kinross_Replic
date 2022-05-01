@@ -5,7 +5,7 @@ import '../styles/linksTitle.scss';
 function FooterLinksTitle({ text, menuText }) {
   return (
     <li className="linksTitle">
-      <a className={menuText === 'yes' ? 'menuColorTitle' : ''} href="/">{text}</a>
+      <a className={menuText === 'yes' ? 'menuColorTitle' : 'footerTitleColor'} href="/">{text}</a>
     </li>
   );
 }
