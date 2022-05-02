@@ -19,3 +19,4 @@ Sara María Paguaga Gonzáles
 - ESLint
 - Sass
 - Nginx
+- Framer Motion
