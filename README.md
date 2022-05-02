@@ -16,11 +16,24 @@ Sara María Paguaga Gonzáles
 Es necesario tener 75% de zoom en la computadora.
 
 ## Tecnologías implementadas en este proyecto
-- React
-- Babel
-- Webpack
-- ESLint
-- Sass
-- HTML
-- Nginx
-- Framer Motion
+- ###React:
+  Utilicé esta libreria para hacer la interfaz gráfica en base a componentes que la conformaban.
+- ###Babel: 
+  Para que el código creado pueda ser compilado en cualquier navegador web.
+- ###Webpack: 
+  Utilicé esta tecnología para poder hacer un solo paquete de todos los archivos que utilicé, desde .jsx hasta .svg y .mp4.
+- ###ESLint: 
+  Me permitió analizar errores en mi código, seguir una estructura más ordenada, basandose y siguiendo la estructura de airbnb.
+- ###Sass: 
+  Me permitió implementar estilo, color y diseño a mi página.
+- ###HTML: 
+  Solo lo utilicé en el index del proyecto.
+- ###Nginx:
+  Lo utilicé para publicar este proyecto en mi servidor.
+- ###Framer Motion: 
+  Lo utilicé para la animación del texto de la página principal.
+  
+## Referencias:
+Dado que en algunos casos desconocía como hacer ciertas cosas investigué y traté de implementar mi propia lógica.
+- ###[Como colocar un vídeo de fondo](https://www.youtube.com/watch?v=8MgpE2DTTKA&t=1320s)
+- ###[Framer motion](https://www.youtube.com/watch?v=BtsVMvds3P0&t=163s)
