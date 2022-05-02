@@ -21,5 +21,6 @@ Es necesario tener 75% de zoom en la computadora.
 - Webpack
 - ESLint
 - Sass
+- HTML
 - Nginx
 - Framer Motion
