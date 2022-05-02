@@ -7,12 +7,14 @@
 
 .linksTitle{
     margin: 0 0 8px;
+    list-style-type: none;
 }
 
 .linksTitle a{
     font-family: 'CaslonPro';
     text-decoration: none;
     font-size: 25px;
+    list-style-type: none;
 }
 
 .footerTitleColor{
@@ -28,6 +30,10 @@
 }
 
 .homeMenuTitle{
-    margin: -7px;
+    margin: 12px;
+}
+
+.TheHouseLink{
+    list-style-type: none;
 }
 

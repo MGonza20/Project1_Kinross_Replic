@@ -26,7 +26,7 @@ function NavBar({ onAdd, show }) {
       </div>
       <div className="logo">
         {' '}
-        <img src={kinrossMainLogo} alt="kinross-main-logo-img" className={background ? 'littleLogo' : 'kinRossImg'} />
+        <a href="/"><img src={kinrossMainLogo} alt="kinross-main-logo-img" className={background ? 'littleLogo' : 'kinRossImg'} /></a>
         {' '}
       </div>
       <div className={background ? 'navBodyContChanged' : 'navBodyCont'}>

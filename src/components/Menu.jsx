@@ -19,7 +19,7 @@ function Menu({ show }) {
           <div className="rowRow">
             <div className="col first">
               <ul>
-                <FooterLinksTitle text="The House" menuText="yes" />
+                <FooterLinksTitle className="TheHouseLink" text="The House" menuText="yes" />
                 <FooterSubLink text="Accommodation" menuText="yes" />
                 <FooterSubLink text="Reception Rooms" menuText="yes" />
                 <FooterSubLink text="Dining" menuText="yes" />
