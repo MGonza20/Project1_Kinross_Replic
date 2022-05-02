@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../styles/main.scss';
 import LandingPage from './LandingPage';
 import WelcomeBanner from './WelcomeBanner';
@@ -18,21 +18,12 @@ import EmergentCookieScreen from './EmergentCookieScreen';
 function Main() {
   const [showMenu, setShowMenu] = useState(false);
   const [window, setWindow] = useState(false);
-  const wbRef = useRef();
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      console.log(entry.isIntersecting);
-    });
-    observer.observe(wbRef.current);
-  }, []);
 
   return (
     <>
       <NavBar onAdd={() => setShowMenu(!showMenu)} show={showMenu} />
       <LandingPage />
-      <WelcomeBanner propR={wbRef} />
+      <WelcomeBanner />
       <ImgsText />
       <QuoteBanner />
       <OneImgInfo />

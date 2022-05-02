@@ -3,11 +3,11 @@ import '../styles/welcomeBanner.scss';
 import decor from '../media/svgs/decor.svg';
 
 // eslint-disable-next-line react/prop-types
-function WelcomeBanner({ propR }) {
+function WelcomeBanner() {
   return (
     <div className="textDiv">
       <div className="innerTextDiv">
-        <h1 ref={propR} className="welcomeText">
+        <h1 className="welcomeText">
           Welcome to Kinross House, the architectural jewel
           {' '}
           <br />
