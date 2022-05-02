@@ -37,3 +37,4 @@ Es necesario tener 75% de zoom en la computadora.
 Dado que en algunos casos desconocía como hacer ciertas cosas investigué y traté de implementar mi propia lógica.
 - [Como colocar un vídeo de fondo](https://www.youtube.com/watch?v=8MgpE2DTTKA&t=1320s)
 - [Framer motion](https://www.youtube.com/watch?v=BtsVMvds3P0&t=163s)
+- [Hamburguer menu](https://www.youtube.com/watch?v=dIyVTjJAkLw) Me ayudó a tener una idea más clara de como hacer la animación del menú de hamburguesa
