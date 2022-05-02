@@ -92,6 +92,9 @@ video {
 .miniDecoration {
   width: 100px; }
 
+.miniDecorationnn {
+  width: 100px; }
+
 /*!*****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/navBar.scss ***!
   \*****************************************************************************************************************/
@@ -226,7 +229,7 @@ video {
 .innerImgsInfoDiv {
   margin: 12px;
   display: grid;
-  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-columns: auto auto;
   grid-auto-flow: column;
   padding-top: 110px;
   padding-bottom: 110px; }
