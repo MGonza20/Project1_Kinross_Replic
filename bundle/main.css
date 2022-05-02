@@ -169,7 +169,7 @@ video {
   width: 40px;
   height: 2px;
   background: #fff;
-  transition: all .3s ease-in-out; }
+  transition: all .3s ease; }
 
 .hamBtn::before {
   transform: translateY(-4px); }
