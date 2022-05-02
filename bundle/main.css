@@ -151,7 +151,8 @@ video {
 
 .logo {
   flex-basis: 100%;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .navBodyCont li {
   padding-left: 15px;
@@ -653,12 +654,14 @@ video {
   font-style: normal; }
 
 .linksTitle {
-  margin: 0 0 8px; }
+  margin: 0 0 8px;
+  list-style-type: none; }
 
 .linksTitle a {
   font-family: 'CaslonPro';
   text-decoration: none;
-  font-size: 25px; }
+  font-size: 25px;
+  list-style-type: none; }
 
 .footerTitleColor {
   color: #2f3f3f; }
@@ -670,7 +673,10 @@ video {
   color: #be9f56; }
 
 .homeMenuTitle {
-  margin: -7px; }
+  margin: 12px; }
+
+.TheHouseLink {
+  list-style-type: none; }
 
 /*!****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/links.scss ***!
